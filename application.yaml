@@ -1,0 +1,16 @@
+# example values
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: enforce_dba
+    password: jhfrk
+    url: jdbc:oracle:thin:@//vol0-hps:1521/enf0
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.OracleDialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
